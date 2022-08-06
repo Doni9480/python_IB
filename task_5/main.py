@@ -7,5 +7,7 @@ profit = int(input("Введите сумму выручки: "))
 lesion = int(input("Введите сумму издержки: "))
 if profit > lesion:
     print('прибыль')
-else:
+elif profit < lesion:
     print('убыток')
+else:
+    print('ровно')
