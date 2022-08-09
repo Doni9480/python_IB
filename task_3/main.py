@@ -18,8 +18,8 @@ while True:
                     'осень': [9, 10, 11]
                 }
 
-                for name, lis in months.items():
-                    if user in lis:
+                for name, new_lis in months.items():
+                    if user in new_lis:
                         print(name)
 
             elif int(option) == 1:

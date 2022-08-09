@@ -3,11 +3,11 @@
 При нечётном количестве элементов последний сохранить на своём месте. Для заполнения списка элементов нужно использовать функцию input()
 '''
 
-lis = input('Введите данные через пробел: ').split()
+new_lis = input('Введите данные через пробел: ').split()
 
-print(lis)
-for i in range(0, len(lis) - 1, 2):
-    i1 = lis[i]
-    lis[i] = lis[i + 1]
-    lis[i + 1] = i1
-print(lis)
+print(new_lis)
+for i in range(0, len(new_lis) - 1, 2):
+    i1 = new_lis[i]
+    new_lis[i] = new_lis[i + 1]
+    new_lis[i + 1] = i1
+print(new_lis)
