@@ -4,8 +4,8 @@
 
 '''
 
-lis = [99, '12', True, [1, 2, 3], ('3'), {'DF'}, {1: 'X', 2: 'T'},None]
+new_lis = [99, '12', True, [1, 2, 3], ('3'), {'DF'}, {1: 'X', 2: 'T'}, None]
 
-print(f'Список {lis}')
-for i,e in enumerate(lis):
+print(f'Список {new_lis}')
+for i, e in enumerate(new_lis):
     print(f'Индех {i} => Тип данных: {type(e)}')
