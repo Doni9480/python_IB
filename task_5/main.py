@@ -10,4 +10,4 @@ if profit > lesion:
 elif profit < lesion:
     print('убыток')
 else:
-    print('ровно')
+    print('равно')

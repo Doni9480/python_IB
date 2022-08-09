@@ -5,13 +5,13 @@
 
 user_num = input('Введите целое положительное число: ')
 i = 0
-f1=user_num[i]
+f1 = user_num[i]
 
-while len(user_num)-1 != i:
-    if f1 < user_num[i+1]:
-        f1 = user_num[i+1]
-        i+=1
+while len(user_num) - 1 != i:
+    if f1 < user_num[i + 1]:
+        f1 = user_num[i + 1]
+        i += 1
     else:
-        i+=1
+        i += 1
 
 print(f1)

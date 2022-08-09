@@ -5,6 +5,6 @@
 
 user_name = input('Имя: ')
 user_year = int(input('Год рождения: '))
-user_estimates = list(input('Оценки: ').split())
+user_estimates = input('Оценки: ').split()
 
 print(f'\n\nИмя:          |{user_name}\nГод рождения: |{user_year}\nОценки:       |{user_estimates}')

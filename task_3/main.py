@@ -6,8 +6,8 @@
 number = int(input('Число n: '))
 rez = 0
 
-for i in range(1,number+1):
-    r = str(number)*i
+for i in range(1, number + 1):
+    r = str(number) * i
     rez += int(r)
 
 print(rez)
