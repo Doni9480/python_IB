@@ -15,6 +15,9 @@
 Подсказка: использовать менеджер контекста.
 """
 
+import json
+
+
 with open('data.txt', encoding='UTF-8') as file:
     lt = len(file.readlines())
     file.seek(0)
@@ -30,5 +33,8 @@ with open('data.txt', encoding='UTF-8') as file:
     my_list.append(new_dict)
     gen = int(sum_income / len(new_dict))
     my_list.append({'average_profit': gen})
+
+with open('my_json_file.json','w') as fl:
+    json.dump(my_list,fl)
 
 print(my_list)
